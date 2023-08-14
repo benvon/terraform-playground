@@ -4,6 +4,6 @@ module "local_module" {
 }
 
 module "remote_module" {
-    source = "git::ssh://git@github.com/benvon/terraform-playground.git//modules/another_world?ref=main"
+    source = "git::ssh://git@github.com/benvon/terraform-playground.git//modules/another_world?ref=anw1.0.0"
     input_string = "The quick brown fox jumps over the lazy dog."
 }
